@@ -1,2 +1,7 @@
-res://TestScene3D.tscn
+res://Material/TestMaterial.tres
+res://Material/flat.tres
+res://Material/transparent.tres
+res://Material/withImage.tres
+res://TestScene2.tscn
 res://TestScene.tscn
+res://TestScene3D.tscn

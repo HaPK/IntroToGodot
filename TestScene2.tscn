@@ -1,0 +1,23 @@
+[gd_scene load_steps=3 format=3 uid="uid://pymcpxruic0l"]
+
+[sub_resource type="SphereMesh" id="SphereMesh_tud57"]
+
+[sub_resource type="PlaneMesh" id="PlaneMesh_rn742"]
+
+[node name="TestScene2" type="Node3D"]
+
+[node name="Sphere" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.939205, 0)
+mesh = SubResource("SphereMesh_tud57")
+skeleton = NodePath("")
+
+[node name="Ground" type="MeshInstance3D" parent="."]
+transform = Transform3D(11.1092, 0, 0, 0, 11.1092, 0, 0, 0, 11.1092, 0, 0, 0)
+mesh = SubResource("PlaneMesh_rn742")
+
+[node name="SpotLight3D" type="SpotLight3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, -0.00588172, 0.999983, 0, -0.999983, -0.00588172, 0, 3.01323, 0.527712)
+light_color = Color(0.00784314, 1, 0.133333, 1)
+shadow_enabled = true
+spot_range = 5.1306
+spot_angle = 47.8125
