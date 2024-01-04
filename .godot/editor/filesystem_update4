@@ -7,3 +7,6 @@ res://ScriptingScene.tscn
 res://TestScene.tscn
 res://TestScene3D.tscn
 res://TestScene2.tscn
+res://CoinCollectorLevel.tscn
+res://Player.gd
+res://Coin.gd
